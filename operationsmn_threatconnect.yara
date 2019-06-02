@@ -6,7 +6,7 @@ meta:
 	author = "ThreatConnect Intelligence Research Team"
 strings:
 	$D = "DoActionRDSRV" wide ascii
-	$h = "h:\\Prj2012" nocase wide ascii
+	$h = /h:\\Prj20[0-9]{2}/ nocase wide ascii // 'h:\Prj2012'
 	$R = "ReleaseTest\\Remote" nocase wide ascii
 	$R1 = "RemoteDeskTop.dll" wide ascii
 	$z = "zxapp-console\\" nocase wide ascii
