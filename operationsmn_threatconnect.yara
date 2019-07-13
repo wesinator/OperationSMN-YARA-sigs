@@ -32,7 +32,7 @@ rule APT_Hikit_msrv
 meta:
 	author = "ThreatConnect Intelligence Research Team"
 strings:
-	$m = "msrv.dll\x00Dll" wide ascii
+	$m = "\x00msrv.dll\x00Dll" wide ascii
 condition:
 	any of them
 }
